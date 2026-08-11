@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITスキルアップ勉強会（Bootstrap版）</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ITスキルアップ勉強会</a>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#events">開催イベント</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">勉強会について</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section id="hero" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h2 class="display-5 fw-bold">プログラミングを基礎から学ぼう</h2>
+      <p class="lead">Java・Python・Gitなど、IT未経験からでも安心して学べる勉強会を開催しています。</p>
+      <a href="#events" class="btn btn-light btn-lg">イベント一覧を見る</a>
+    </div>
+  </section>
+
+  <section id="events" class="container py-5">
+    <h2 class="text-center mb-4">開催イベント</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title h5">Java入門講座</h3>
+            <p class="card-subtitle text-muted mb-2">2026年9月5日（土）</p>
+            <p class="card-text">Javaの基本文法からオブジェクト指向まで、実践形式で学びます。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title h5">Python入門講座</h3>
+            <p class="card-subtitle text-muted mb-2">2026年9月12日（土）</p>
+            <p class="card-text">Pythonを使ったデータ処理の基礎を学びます。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title h5">Git/GitHub入門講座</h3>
+            <p class="card-subtitle text-muted mb-2">2026年9月19日（土）</p>
+            <p class="card-text">バージョン管理の基本操作をハンズオン形式で学びます。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-3">勉強会について</h2>
+      <p class="text-center mb-0">本勉強会は、IT未経験者を対象に、実務で役立つスキルを身につけることを目的としています。少人数制で、講師が丁寧にサポートします。</p>
+    </div>
+  </section>
+
+  <section id="contact" class="container py-5" style="max-width: 600px;">
+    <h2 class="text-center mb-4">お問い合わせ</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">お名前</label>
+        <input type="text" id="name" name="name" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">メールアドレス</label>
+        <input type="email" id="email" name="email" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">お問い合わせ内容</label>
+        <textarea id="message" name="message" rows="4" class="form-control"></textarea>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">送信する</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2026 ITスキルアップ勉強会</p>
+</footer>
+
+</body>
+</html>

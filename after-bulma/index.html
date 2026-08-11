@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITスキルアップ勉強会（Bulma版）</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+<body>
+
+<header class="navbar" role="navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item has-text-weight-bold" href="#">ITスキルアップ勉強会</a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#events">開催イベント</a>
+        <a class="navbar-item" href="#about">勉強会について</a>
+        <a class="navbar-item" href="#contact">お問い合わせ</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="hero" class="hero is-primary">
+    <div class="hero-body has-text-centered">
+      <p class="title">プログラミングを基礎から学ぼう</p>
+      <p class="subtitle">Java・Python・Gitなど、IT未経験からでも安心して学べる勉強会を開催しています。</p>
+      <a href="#events" class="button is-light is-medium">イベント一覧を見る</a>
+    </div>
+  </section>
+
+  <section id="events" class="section">
+    <div class="container">
+      <h2 class="title has-text-centered">開催イベント</h2>
+      <div class="columns">
+
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-5">Java入門講座</p>
+              <p class="subtitle is-6">2026年9月5日（土）</p>
+              <p>Javaの基本文法からオブジェクト指向まで、実践形式で学びます。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-5">Python入門講座</p>
+              <p class="subtitle is-6">2026年9月12日（土）</p>
+              <p>Pythonを使ったデータ処理の基礎を学びます。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-5">Git/GitHub入門講座</p>
+              <p class="subtitle is-6">2026年9月19日（土）</p>
+              <p>バージョン管理の基本操作をハンズオン形式で学びます。</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section has-background-light">
+    <div class="container has-text-centered" style="max-width: 700px; margin: 0 auto;">
+      <h2 class="title">勉強会について</h2>
+      <p>本勉強会は、IT未経験者を対象に、実務で役立つスキルを身につけることを目的としています。少人数制で、講師が丁寧にサポートします。</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container" style="max-width: 500px; margin: 0 auto;">
+      <h2 class="title has-text-centered">お問い合わせ</h2>
+      <form>
+        <div class="field">
+          <label class="label" for="name">お名前</label>
+          <div class="control">
+            <input class="input" type="text" id="name" name="name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="email">メールアドレス</label>
+          <div class="control">
+            <input class="input" type="email" id="email" name="email">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="message">お問い合わせ内容</label>
+          <div class="control">
+            <textarea class="textarea" id="message" name="message" rows="4"></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <button type="submit" class="button is-primary is-fullwidth">送信する</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer has-background-dark has-text-white">
+  <div class="content has-text-centered">
+    <p>&copy; 2026 ITスキルアップ勉強会</p>
+  </div>
+</footer>
+
+</body>
+</html>
